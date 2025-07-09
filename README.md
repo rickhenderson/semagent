@@ -20,6 +20,21 @@ Of course, using any kind of model that doesn't run locally requires paid API ca
 
 But so far, it's a good starting point.
 
+* Set up endpoint with `ngrok` to use for local testing as suggested in the tutorial.
+* Used Claude.ai to set up a webserver using C# so I can test client API requests. It will take time to dive more into how the ChatCompletion endpoints work to really get this going, and a better understanding of writing a webserver.
+* My time might be better spent working on security solutions :)
+
+```
+OpenAI Compatible API Server
+This server provides OpenAI-compatible API endpoints:
+
+POST /v1/chat/completions - Chat completions
+GET /v1/models - List models
+GET /health - Health check
+Server is running and ready to accept requests.
+```
+
+
 # Links and References
 
 * [Human-In-The-Loop Example](https://learn.microsoft.com/en-us/semantic-kernel/frameworks/process/examples/example-human-in-loop?pivots=programming-language-csharp)

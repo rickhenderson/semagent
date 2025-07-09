@@ -9,8 +9,8 @@ using Microsoft.SemanticKernel.Connectors.OpenAI;
 
 // Populate values from your OpenAI deployment
 var modelId = "gpt-4o-mini";
-var endpoint = "https://192.168.2.21:77";
-var apiKey = "sucker";
+var endpoint = "https://united-insect-mistakenly.ngrok-free.app/";
+var apiKey = "sXXXXX";
 
 // Create a kernel with Azure OpenAI chat completion
 var builder = Kernel.CreateBuilder().AddAzureOpenAIChatCompletion(modelId, endpoint, apiKey);
